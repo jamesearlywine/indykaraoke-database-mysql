@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+aws s3 cp s3://indykaraoke-database/indykaraoke-test-template.sql ./indykaraoke.sql
+docker-compose up&
