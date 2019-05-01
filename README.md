@@ -4,8 +4,19 @@
   - Local development
   - Pipeline automated e2e tests
 
+# Dependencies
+- git
+- docker
+- docker-compose
+
+# Spin up local dataase
+- `git clone https://github.com/jamesearlywine/indykaraoke-database-mysql`
+- `cd indykaraoke-database-mysql`
+- `./up.sh`
+
+
 # Notes
-- Using a node module called `db-migrate` to manage schema migrations
+- Uses a node module called `db-migrate` to manage schema migrations
   - https://db-migrate.readthedocs.io/en/latest/
 
 # Warning
