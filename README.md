@@ -1,4 +1,4 @@
-# Indykaraoke Mysql Database
+# IndyKaraoke Database - Mysql
 
 This repo contains the automation required to spin up an Indykaraoke Mysql Database.
 
@@ -30,13 +30,17 @@ this is useful for:
 
 
 # Best Practices
-- When making schema changes:
-  - write a migration to bring the database into an intermediary state, such that the schema supports the existing and future webservice functionality
-  - then update the webservice to use the new functionality (writes, reads, etc)
-  - then write a migration to convert all records from the old schema to the new schema
-  - then write a schema migration to eliminate the deprecated fields/functionality
-  - This site (and book) has many best-practice database refactoring recipes: https://databaserefactoring.com
-    - We have this book in pdf form if anyone needs to reference it
+- Non-breaking schema changes
+  - (so that we don't need to shut down the webservice to update the schema)
+  - example:
+    - write a migration to bring the database into an intermediary state, such that the schema supports the existing and future webservice functionality
+      - then update the webservice to extend the write functionality (simultaneously compatible with old and new schema)
+    - then write a migration to convert all records from the old schema to the intermediary state of supporting new and old schema
+      - then update the webservice to eliminate the old write functionality
+      - then update the webservice to implement the new read functionality
+    - then write a schema migration to eliminate the deprecated fields/functionality
+- Many best-practice database refactoring recipes can be found at: https://databaserefactoring.com
+  - We have this book in PDF form if anyone needs to reference it
 
 
 # Todo
