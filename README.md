@@ -1,6 +1,8 @@
 # Indykaraoke Mysql Database
 
-- This repo contains the automation required to spin up an Indykaraoke Mysql Database, this is useful for:
+This repo contains the automation required to spin up an Indykaraoke Mysql Database.
+
+this is useful for:
   - Local development
   - Pipeline automated e2e tests
 
