@@ -26,6 +26,7 @@ this is useful for:
 # Notes
 - Uses a node module called `db-migrate` to create and run schema migrations
   - https://db-migrate.readthedocs.io/en/latest/
+- database credentials can be found in [/docker-compose.yaml](docker-compose.yaml)
 
 
 # Best Practices
