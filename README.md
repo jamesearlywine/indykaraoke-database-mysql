@@ -11,6 +11,7 @@
 # Warning
 - When a PR is merged to a deployment branch
   - any scripts under /migrations that haven't been run against that environment's hosted database, will run.
+  - **this includes production!**
 
 # Best Practice
 - When making schema changes:
