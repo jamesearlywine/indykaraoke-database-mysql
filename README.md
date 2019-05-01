@@ -16,15 +16,17 @@ this is useful for:
 - `cd indykaraoke-database-mysql`
 - `./up.sh`
 
-
-# Notes
-- Uses a node module called `db-migrate` to manage schema migrations
-  - https://db-migrate.readthedocs.io/en/latest/
-
 # Warning
 - When a PR is merged to a deployment branch
   - any scripts under /migrations that haven't been run against that environment's hosted database, will run.
-  - **this includes production!**
+  - deployment branches include:
+    - **production (!)**
+    - staging
+
+# Notes
+- Uses a node module called `db-migrate` to create and run schema migrations
+  - https://db-migrate.readthedocs.io/en/latest/
+
 
 # Best Practices
 - When making schema changes:
