@@ -2,11 +2,12 @@ version: '2'
 
 services:
   indykaraoke-database:
-    container_name: mysql:5.6
+    container_name: indykaraoke_database
+    image: mysql:5.6
     ports:
       - "3306:3306"
     environment:
-      - "MYSQL_DATABASE=indykaraoke"
+      - "MYSQL_DATABASE=indykaraoke_localdev"
       - "MYSQL_USER=localdev"
       - "MYSQL_PASSWORD=localdev"
       - "MYSQL_ROOT_PASSWORD=localdev"

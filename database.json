@@ -1,0 +1,11 @@
+{
+  "localdev": {
+    "driver": "mysql",
+    "multipleStatements": true,
+    "user": "localdev",
+    "password": "localdev",
+    "host": "localhost",
+    "database": "indykaraoke_localdev"
+  },
+  "sql-file": true
+}

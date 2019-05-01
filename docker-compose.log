@@ -1,0 +1,210 @@
+Attaching to indykaraoke_database
+[36mindykaraoke_database    |[0m Initializing database
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 0 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 0 [Note] /usr/sbin/mysqld (mysqld 5.6.44) starting as process 35 ...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Using atomics to ref count buffer pool pages
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: The InnoDB memory heap is disabled
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Memory barrier is not used
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Using Linux native AIO
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Using CPU crc32 instructions
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Completed initialization of buffer pool
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: The first specified data file ./ibdata1 did not exist: a new database to be created!
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Setting file ./ibdata1 size to 12 MB
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Database physically writes the file full: wait...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Warning] InnoDB: New log files created, LSN=45781
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Doublewrite buffer not found: creating new
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Doublewrite buffer created
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: 128 rollback segment(s) are active.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Warning] InnoDB: Creating foreign key constraint system tables.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Foreign key constraint system tables created
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Creating tablespace and datafile system tables.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Tablespace and datafile system tables created.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Waiting for purge to start
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: 5.6.44 started; log sequence number 0
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] Binlog end
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: FTS optimize thread exiting.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:32 35 [Note] InnoDB: Starting shutdown...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 35 [Note] InnoDB: Shutdown completed; log sequence number 1625977
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 0 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 0 [Note] /usr/sbin/mysqld (mysqld 5.6.44) starting as process 58 ...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Using atomics to ref count buffer pool pages
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: The InnoDB memory heap is disabled
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Memory barrier is not used
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Using Linux native AIO
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Using CPU crc32 instructions
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Completed initialization of buffer pool
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Highest supported file format is Barracuda.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: 128 rollback segment(s) are active.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Waiting for purge to start
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: 5.6.44 started; log sequence number 1625977
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] Binlog end
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: FTS optimize thread exiting.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:34 58 [Note] InnoDB: Starting shutdown...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 58 [Note] InnoDB: Shutdown completed; log sequence number 1625987
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+[36mindykaraoke_database    |[0m To do so, start the server, then issue the following commands:
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m   /usr/bin/mysqladmin -u root password 'new-password'
+[36mindykaraoke_database    |[0m   /usr/bin/mysqladmin -u root -h 2cfeaae9b215 password 'new-password'
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m Alternatively you can run:
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m   /usr/bin/mysql_secure_installation
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m which will also give you the option of removing the test
+[36mindykaraoke_database    |[0m databases and anonymous user created by default.  This is
+[36mindykaraoke_database    |[0m strongly recommended for production servers.
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m See the manual for more instructions.
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m Please report any problems at http://bugs.mysql.com/
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m The latest information about MySQL is available on the web at
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m   http://www.mysql.com
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m Support MySQL by buying support/licenses at http://shop.mysql.com
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m Note: new default config file not created.
+[36mindykaraoke_database    |[0m Please make sure your config file is current
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m WARNING: Default config file /etc/mysql/my.cnf exists on the system
+[36mindykaraoke_database    |[0m This file will be read by default by the MySQL server
+[36mindykaraoke_database    |[0m If you do not want to use this, either remove it, or use the
+[36mindykaraoke_database    |[0m --defaults-file argument to mysqld_safe when starting the server
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m Database initialized
+[36mindykaraoke_database    |[0m MySQL init process in progress...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 0 [Note] mysqld (mysqld 5.6.44) starting as process 86 ...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] Plugin 'FEDERATED' is disabled.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Using atomics to ref count buffer pool pages
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: The InnoDB memory heap is disabled
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Memory barrier is not used
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Using Linux native AIO
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Using CPU crc32 instructions
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Completed initialization of buffer pool
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Highest supported file format is Barracuda.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: 128 rollback segment(s) are active.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: Waiting for purge to start
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] InnoDB: 5.6.44 started; log sequence number 1625987
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 9643934c-6bdc-11e9-a234-0242c0a89002.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Warning] 'user' entry 'root@2cfeaae9b215' ignored in --skip-name-resolve mode.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Warning] 'user' entry '@2cfeaae9b215' ignored in --skip-name-resolve mode.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Warning] 'proxies_priv' entry '@ root@2cfeaae9b215' ignored in --skip-name-resolve mode.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] Event Scheduler: Loaded 0 events
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:36 86 [Note] mysqld: ready for connections.
+[36mindykaraoke_database    |[0m Version: '5.6.44'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server (GPL)
+[36mindykaraoke_database    |[0m Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it.
+[36mindykaraoke_database    |[0m Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it.
+[36mindykaraoke_database    |[0m Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it.
+[36mindykaraoke_database    |[0m Warning: Unable to load '/usr/share/zoneinfo/zone1970.tab' as time zone. Skipping it.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Warning] 'proxies_priv' entry '@ root@2cfeaae9b215' ignored in --skip-name-resolve mode.
+[36mindykaraoke_database    |[0m Warning: Using a password on the command line interface can be insecure.
+[36mindykaraoke_database    |[0m Warning: Using a password on the command line interface can be insecure.
+[36mindykaraoke_database    |[0m Warning: Using a password on the command line interface can be insecure.
+[36mindykaraoke_database    |[0m Warning: Using a password on the command line interface can be insecure.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Warning] 'proxies_priv' entry '@ root@2cfeaae9b215' ignored in --skip-name-resolve mode.
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] mysqld: Normal shutdown
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Giving 0 client threads a chance to die gracefully
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Event Scheduler: Purging the queue. 0 events
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down slave threads
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Forcefully disconnecting 0 remaining clients
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Binlog end
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'partition'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_METRICS'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_CMPMEM'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_CMP'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_LOCKS'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'INNODB_TRX'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] Shutting down plugin 'InnoDB'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] InnoDB: FTS optimize thread exiting.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:40 86 [Note] InnoDB: Starting shutdown...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] InnoDB: Shutdown completed; log sequence number 1625997
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'BLACKHOLE'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'ARCHIVE'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'MRG_MYISAM'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'MyISAM'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'MEMORY'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'CSV'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'sha256_password'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'mysql_old_password'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'mysql_native_password'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] Shutting down plugin 'binlog'
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:41 86 [Note] mysqld: Shutdown complete
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m MySQL init process done. Ready for start up.
+[36mindykaraoke_database    |[0m 
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 0 [Note] mysqld (mysqld 5.6.44) starting as process 1 ...
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] Plugin 'FEDERATED' is disabled.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Using atomics to ref count buffer pool pages
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: The InnoDB memory heap is disabled
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Memory barrier is not used
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Compressed tables use zlib 1.2.11
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Using Linux native AIO
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Using CPU crc32 instructions
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Completed initialization of buffer pool
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Highest supported file format is Barracuda.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: 128 rollback segment(s) are active.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: Waiting for purge to start
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] InnoDB: 5.6.44 started; log sequence number 1625997
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] Server hostname (bind-address): '*'; port: 3306
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] IPv6 is available.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note]   - '::' resolves to '::';
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] Server socket created on IP: '::'.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Warning] 'proxies_priv' entry '@ root@2cfeaae9b215' ignored in --skip-name-resolve mode.
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] Event Scheduler: Loaded 0 events
+[36mindykaraoke_database    |[0m 2019-05-01 06:44:42 1 [Note] mysqld: ready for connections.
+[36mindykaraoke_database    |[0m Version: '5.6.44'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
