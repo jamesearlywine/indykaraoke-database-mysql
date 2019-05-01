@@ -17,6 +17,11 @@ while ! grep -m2 "${MYSQL_READY_STRING}" < docker-compose.log; do
   docker-compose logs > docker-compose.log
 done
 
-# after the mysql server is started, run database seeds and migrations
+# after the mysql server is started,
+
+# create entry in /etc/hosts
+source ./hosts/indykaraoke_localdev_up.sh
+
+# run database seeds and migrations
 printf "\n\n"
 source ./dbinit.sh
