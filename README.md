@@ -6,8 +6,8 @@
 
 # Dependencies
 - git
-- docker
-- docker-compose
+- nodejs (tested with version 10.12.0)
+- npm (tested with version 6.4.1)
 
 # Spin up local dataase
 - `git clone https://github.com/jamesearlywine/indykaraoke-database-mysql`
