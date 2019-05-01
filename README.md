@@ -24,7 +24,7 @@
   - any scripts under /migrations that haven't been run against that environment's hosted database, will run.
   - **this includes production!**
 
-# Best Practice
+# Best Practices
 - When making schema changes:
   - write a migration to bring the database into an intermediary state, such that the schema supports the existing and future webservice functionality
   - then update the webservice to use the new functionality (writes, reads, etc)
