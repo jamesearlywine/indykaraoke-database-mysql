@@ -28,7 +28,9 @@ this is useful for:
   - https://db-migrate.readthedocs.io/en/latest/
 - database credentials can be found in [/docker-compose.yaml](docker-compose.yaml)
 - creates local dns/host entry in /etc/hosts, see [/hosts/](/hosts/)
-
+- test user credentials:
+  - email: localdev@sharklasers.com
+  - password: localdev
 
 # Best Practices
 - Non-breaking schema changes
